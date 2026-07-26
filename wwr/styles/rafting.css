@@ -2,7 +2,8 @@
     --primary-color: #272727;
     --secondary-color: #7c7c7c;
     --accent1-color: #d1d1d1;
-    --accent2-color: #ffffff;
+    --accent2-color: #e9e9e9;
+    /*#ffffff;*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -55,17 +56,48 @@ article {
 
 h1 {
     position: absolute;
-    top: 20px;
+    top: 40px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--primary-color);
+    /* white text – make sure there is enough contrast with the background-color */
+}
+
+h2 {
+    text-align: center;
+    background-color: var(--secondary-color);
+}
+
+.hero article {
+    position: absolute;
+    bottom: 35px;
+    width: 95%;
+    padding: 16px;
+    opacity: 0.6;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    ;
     /* white text – make sure there is enough contrast with the background-color */
 }
 
 .hero article img {
     float: right;
     width: 125px;
+}
+
+footer img {
+    width: 30px;
+    height: auto;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+footer ul li {
+    margin: 5px;
 }
