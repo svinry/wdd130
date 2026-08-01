@@ -40,6 +40,12 @@ article {
     padding: 8px;
 }
 
+img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+
 .socialmedia a {
     text-decoration: none;
 }
