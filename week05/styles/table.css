@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(140 140 140);
+    /* border-style: inset; */
+    letter-spacing: 1px;
+}
+
+/* tbody {
+    color: dimgray;
+} */
+
+td,
+th {
+    border: 1px solid rgb(150, 150, 150);
+    text-align: center;
+    padding: 10px;
+}
+
+thead tr,
+tfoot tr {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgb(236, 236, 236);
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(255, 255, 255);
+}
+
+td:hover {
+    background-color: lightblue;
+    cursor: pointer;
+}
