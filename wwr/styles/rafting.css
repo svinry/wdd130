@@ -189,3 +189,107 @@ footer p {
     display: flex;
     flex-direction: column;
 } */
+
+.address {
+    text-align: center;
+    margin: 20px auto 30px;
+}
+
+.address h1 {
+    font-size: 1.8rem;
+    position: static;
+    background: none;
+}
+
+.name {
+    font-size: 1.2rem;
+}
+
+/* .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    margin: 0 100px;
+    gap: 2rem;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(0 0 0 /.1);
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.purpose {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.purpose label {
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid rgb(0 0 0 /.3);
+    border-radius: .3rem;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    margin: 0 100px;
+}
+
+textarea,
+input {
+    padding: .3rem;
+}
+
+label {
+    font-size: .9rem;
+}
+
+.employee {
+    background-color: #e9e9e9;
+    padding: auto;
+    justify-content: space-evenly;
+}
+
+.employee h2 {
+    background-color: rgba(255, 255, 255, 0);
+}
