@@ -249,10 +249,6 @@ form {
     align-items: center;
 }
 
-textarea {
-    resize: vertical;
-}
-
 .purpose {
     display: flex;
     flex-direction: column;
@@ -281,6 +277,7 @@ button {
 }
 
 textarea {
+    resize: vertical;
     width: 100%;
     margin: 0 100px;
 }
