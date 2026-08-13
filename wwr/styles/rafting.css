@@ -79,9 +79,14 @@ img {
 .history h2,
 .adventure h2,
 .trips-container h2,
-.trips-overview h2 {
+.trips-overview h2,
+.offerings h2 {
     text-align: center;
     background-color: var(--secondary-color);
+}
+
+.offerings h2 {
+    margin: 2rem 0 0;
 }
 
 h3 {
@@ -149,6 +154,7 @@ header img {
     align-items: center;
 }
 
+.offerings h2,
 .history h2 {
     grid-column: 1/-1;
 }
@@ -166,7 +172,8 @@ header img {
 
 }
 
-.adventure h2 {
+.adventure h2,
+.offerings h2 {
     flex: 0 0 100%;
 }
 
@@ -216,6 +223,11 @@ footer p {
     font-size: 1.8rem;
     position: static;
     background: none;
+}
+
+.page-title {
+    text-align: center;
+    margin: 1rem 0 0;
 }
 
 .name {
